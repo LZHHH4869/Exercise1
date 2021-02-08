@@ -128,7 +128,7 @@ geom_col(mapping = aes(x=Month, y=DepDelay), position ='dodge')+
 scale_x_continuous(breaks=1:12)+
   labs(title="Figure3B: Departure delay from Austin in different months in 2008", y="Departure delay from Austin", x="Month")
 ```
-### From Figure3A, we can learn that the departure delay time of airlines from Austin to other places shows the least in September. From Figure3B, US carrier's airlines delay less than other carriers in general and apart from Apirl, the time of departure delay of NW carrier's airlines is almost 0 in 2008.
+### From Figure3A, we can learn that the departure delay time of airlines from Austin to other places showed the least in September. From Figure3B, US carrier's airlines delayed less than other carriers in general and apart from April, the time of departure delay of NW carrier's airlines was almost 0 in 2008.
 
 ## Then we use database of AustinDep to make barplots of time of arrival delay (Austin is the origin).
 ```{r echo=FALSE}
@@ -144,7 +144,7 @@ geom_col(mapping = aes(x=Month, y=ArrDelay), position ='dodge')+
 scale_x_continuous(breaks=1:12)+
   labs(title="Figure3D: Arrival delay from Austin in different months in 2008", y="Arrival delay from Austin", x="Month")
 ```
-### From Figure3C we can learn that the arrival in other places from Austin delay less in September and November than other months. Similar to the first group, from Figure3D, the US and NW carrier delay less than other carriers.
+### From Figure3C we can learn that the arrival in other places from Austin delayed less in September and November than other months. Similar to the first group, from Figure3D, the US and NW carrier delayed less than other carriers.
 
 ## Use AustinDep to make a barplot of time of departure delay (Austin is the destination).
 ```{r echo=FALSE}
@@ -160,7 +160,7 @@ scale_x_continuous(breaks=1:12)+
   facet_wrap(~UniqueCarrier)+
   labs(title="Figure3F: Departure delay from other places to Austin in different months in 2008", y="Departure delay from other places", x="Month")
 ```
-## From Figure3E, the arrival in other places from Austin delay less in September and November than other months. From Figure3F, NW, US and F9 carrier delay less than other carriers in 2008.
+## From Figure3E, the arrival in other places from Austin delayed less in September and November than other months. From Figure3F, NW, US and F9 carrier delayed less than other carriers in 2008.
 
 ## Then use dataset of AustinDep to make a barplot of time of arrival delay (Austin is the destination).
 ```{r echo=FALSE}
@@ -176,7 +176,7 @@ scale_x_continuous(breaks=1:12)+
   facet_wrap(~UniqueCarrier)+
   labs(title="Figure3H: Arrival delay from other places to Austin in different months in 2008", y="Arrival delay in Austin", x="Month")
 ```
-### From Figure3G, the arrival in other places from Austin still delay less in September than other months. Similar to the first group, from Figure3H, the NW carrier delay less than other carriers in 2008, and US, F9 and MQ are close to each other.
+### From Figure3G, the arrival in other places from Austin still delayed less in September than other months. From Figure3H, the NW carrier delayed less than other carriers in 2008, and US, F9 and MQ were close to each other.
 
 ## Next, in general, make barplots of time of departure delay in 2008 considering all airlines.
 ```{r echo=FALSE}
