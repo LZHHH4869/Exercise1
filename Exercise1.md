@@ -87,36 +87,36 @@ stay at home during bad weather on holidays.
 ![](Exercise1_files/figure-markdown_strict/unnamed-chunk-14-1.png)
 ![](Exercise1_files/figure-markdown_strict/unnamed-chunk-15-1.png)
 \#\#\# From Figure3A, we can learn that the departure delay time of
-airlines from Austin to other places shows the least in September. From
-Figure3B, US carrier’s airlines delay less than other carriers in
-general and apart from Apirl, the time of departure delay of NW
-carrier’s airlines is almost 0 in 2008.
+airlines from Austin to other places showed the least in September. From
+Figure3B, US carrier’s airlines delayed less than other carriers in
+general and apart from April, the time of departure delay of NW
+carrier’s airlines was almost 0 in 2008.
 
 ## Then we use database of AustinDep to make barplots of time of arrival delay (Austin is the origin).
 
 ![](Exercise1_files/figure-markdown_strict/unnamed-chunk-16-1.png)
 ![](Exercise1_files/figure-markdown_strict/unnamed-chunk-17-1.png)
 \#\#\# From Figure3C we can learn that the arrival in other places from
-Austin delay less in September and November than other months. Similar
-to the first group, from Figure3D, the US and NW carrier delay less than
+Austin delayed less in September and November than other months. Similar
+to the first group, from Figure3D, the US and NW carrier delayed less than
 other carriers.
 
 ## Use AustinDep to make a barplot of time of departure delay (Austin is the destination).
 
 ![](Exercise1_files/figure-markdown_strict/unnamed-chunk-18-1.png)
 ![](Exercise1_files/figure-markdown_strict/unnamed-chunk-19-1.png) \#\#
-From Figure3E, the arrival in other places from Austin delay less in
+From Figure3E, the arrival in other places from Austin delayed less in
 September and November than other months. From Figure3F, NW, US and F9
-carrier delay less than other carriers in 2008.
+carrier delayed less than other carriers in 2008.
 
 ## Then use dataset of AustinDep to make a barplot of time of arrival delay (Austin is the destination).
 
 ![](Exercise1_files/figure-markdown_strict/unnamed-chunk-20-1.png)
 ![](Exercise1_files/figure-markdown_strict/unnamed-chunk-21-1.png)
 \#\#\# From Figure3G, the arrival in other places from Austin still
-delay less in September than other months. Similar to the first group,
-from Figure3H, the NW carrier delay less than other carriers in 2008,
-and US, F9 and MQ are close to each other.
+delayed less in September than other months. Similar to the first group,
+from Figure3H, the NW carrier delayed less than other carriers in 2008,
+and US, F9 and MQ were close to each other.
 
 ## Next, in general, make barplots of time of departure delay in 2008 considering all airlines.
 
